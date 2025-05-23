@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZAID/Desktop/MLops/HotelReservationPrediction/mlruns/0/d2d6121e2c87450ab36fc55fc6b80e43/artifacts
+end_time: 1747982371995
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d2d6121e2c87450ab36fc55fc6b80e43
+run_name: likeable-carp-949
+run_uuid: d2d6121e2c87450ab36fc55fc6b80e43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747982363555
+status: 3
+tags: []
+user_id: ZAID

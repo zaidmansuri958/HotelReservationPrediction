@@ -1,0 +1,67 @@
+2025-05-23 12:09:12,313 - INFO - Successfully read the YAML file
+2025-05-23 12:09:12,314 - INFO - Data ingestion started with HotelReservations.csv
+2025-05-23 12:09:12,314 - INFO - data ingestion process started
+2025-05-23 12:09:12,314 - INFO - Getting the data into the raw file
+2025-05-23 12:09:12,319 - INFO - Start splitting process
+2025-05-23 12:09:12,616 - INFO - Train data saved to artifacts/raw\train.csv
+2025-05-23 12:09:12,616 - INFO - Test data saved to artifacts/raw\test.csv
+2025-05-23 12:09:12,618 - INFO - Data ingestion process ended
+2025-05-23 12:09:12,620 - INFO - Successfully read the YAML file
+2025-05-23 12:09:12,623 - INFO - Loading data from raw directory
+2025-05-23 12:09:12,623 - INFO - Loading data
+2025-05-23 12:09:12,695 - INFO - Loading data
+2025-05-23 12:09:12,729 - INFO - Starting our Data Processing step
+2025-05-23 12:09:12,729 - INFO - Dropping the columns
+2025-05-23 12:09:12,752 - INFO - Applying Label Encoding
+2025-05-23 12:09:12,779 - INFO - Label Mappings are : 
+2025-05-23 12:09:12,779 - INFO - type_of_meal_plan : {np.int64(0): np.int64(0), np.int64(1): np.int64(1), np.int64(2): np.int64(2), np.int64(3): np.int64(3)}
+2025-05-23 12:09:12,779 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-05-23 12:09:12,779 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-05-23 12:09:12,779 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-05-23 12:09:12,779 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-05-23 12:09:12,779 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-05-23 12:09:12,779 - INFO - Doing skewness handling
+2025-05-23 12:09:12,784 - INFO - Starting our Data Processing step
+2025-05-23 12:09:12,784 - INFO - Dropping the columns
+2025-05-23 12:09:12,791 - INFO - Applying Label Encoding
+2025-05-23 12:09:12,800 - INFO - Label Mappings are : 
+2025-05-23 12:09:12,800 - INFO - type_of_meal_plan : {np.int64(0): np.int64(0), np.int64(1): np.int64(1), np.int64(2): np.int64(2), np.int64(3): np.int64(3)}
+2025-05-23 12:09:12,800 - INFO - required_car_parking_space : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-05-23 12:09:12,800 - INFO - room_type_reserved : {'Room_Type 1': np.int64(0), 'Room_Type 2': np.int64(1), 'Room_Type 3': np.int64(2), 'Room_Type 4': np.int64(3), 'Room_Type 5': np.int64(4), 'Room_Type 6': np.int64(5), 'Room_Type 7': np.int64(6)}
+2025-05-23 12:09:12,800 - INFO - market_segment_type : {'Aviation': np.int64(0), 'Complementary': np.int64(1), 'Corporate': np.int64(2), 'Offline': np.int64(3), 'Online': np.int64(4)}
+2025-05-23 12:09:12,800 - INFO - repeated_guest : {np.int64(0): np.int64(0), np.int64(1): np.int64(1)}
+2025-05-23 12:09:12,800 - INFO - booking_status : {'Canceled': np.int64(0), 'Not_Canceled': np.int64(1)}
+2025-05-23 12:09:12,800 - INFO - Doing skewness handling
+2025-05-23 12:09:12,803 - INFO - Handling Imbalanced data
+2025-05-23 12:09:16,090 - INFO - Data balanced successfully
+2025-05-23 12:09:16,091 - INFO - Handling Imbalanced data
+2025-05-23 12:09:16,127 - INFO - Data balanced successfully
+2025-05-23 12:09:16,127 - INFO - Starting our feature selection process
+2025-05-23 12:09:22,664 - INFO - Feature selected : ['lead_time' 'avg_price_per_room' 'no_of_special_requests' 'arrival_month'
+ 'Unnamed: 0' 'arrival_date' 'market_segment_type' 'no_of_week_nights'
+ 'no_of_weekend_nights' 'type_of_meal_plan']
+2025-05-23 12:09:22,666 - INFO - Feature selection completed successfully
+2025-05-23 12:09:22,673 - INFO - Saving out data in processed folder
+2025-05-23 12:09:22,770 - INFO - Data saved successfully to artifacts/processed\processed_train.csv
+2025-05-23 12:09:22,770 - INFO - Saving out data in processed folder
+2025-05-23 12:09:22,793 - INFO - Data saved successfully to artifacts/processed\processed_test.csv
+2025-05-23 12:09:22,793 - INFO - Data processing completed successfully
+2025-05-23 12:09:23,612 - INFO - Starting our model training pipeline
+2025-05-23 12:09:23,612 - INFO - Starting our MLFLOW experiment
+2025-05-23 12:09:23,612 - INFO - Logging the training and testing dataset to MLFLOW
+2025-05-23 12:09:23,622 - INFO - Loading data from artifacts/processed\processed_train.csv
+2025-05-23 12:09:23,622 - INFO - Loading data
+2025-05-23 12:09:23,660 - INFO - Loading data from artifacts/processed\processed_test.csv
+2025-05-23 12:09:23,660 - INFO - Loading data
+2025-05-23 12:09:23,684 - INFO - Data splitted successfully for model training
+2025-05-23 12:09:23,684 - INFO - Initializing our model
+2025-05-23 12:09:23,684 - INFO - Starting our hyperparameter tuning
+2025-05-23 12:09:23,684 - INFO - Starting our hyperparameter tuning
+2025-05-23 12:09:31,862 - INFO - Hyperparameter tuning completed
+2025-05-23 12:09:31,862 - INFO - Best parameters are : {'boosting_type': 'gbdt', 'learning_rate': np.float64(0.1293700315892974), 'max_depth': 23, 'n_estimators': 314, 'num_leaves': 94}
+2025-05-23 12:09:31,862 - INFO - Model evaluation start
+2025-05-23 12:09:31,921 - INFO - Saving the model
+2025-05-23 12:09:31,968 - INFO - Model saved to {self.model_output_path}
+2025-05-23 12:09:31,968 - INFO - Logging the model with MLFLOW
+2025-05-23 12:09:31,972 - INFO - Logging params and metrics to MLFLOW
+2025-05-23 12:09:31,995 - INFO - Model training successfully completed

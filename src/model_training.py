@@ -35,10 +35,14 @@ class ModelTraining:
             logger.info(f"Loading data from {self.test_path}")
             test_df=load_data(self.test_path)
 
+            train_df.columns = [col.replace(" ", "_").replace("\"", "").replace(":", "").replace("\\", "") for col in train_df.columns]
+            test_df.columns = [col.replace(" ", "_").replace("\"", "").replace(":", "").replace("\\", "") for col in test_df.columns]
+
+
             X_train=train_df.drop(columns=["booking_status"])
             y_train=train_df["booking_status"]
 
-            x_test=train_df.drop(columns=["booking_status"])
+            x_test=test_df.drop(columns=["booking_status"])
             y_test=test_df["booking_status"]
 
             logger.info("Data splitted successfully for model training")

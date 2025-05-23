@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZAID/Desktop/MLops/HotelReservationPrediction/mlruns/0/45d23fad6a994a18a40aaad4800dde63/artifacts
+end_time: 1747981659565
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 45d23fad6a994a18a40aaad4800dde63
+run_name: shivering-elk-645
+run_uuid: 45d23fad6a994a18a40aaad4800dde63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747981652919
+status: 4
+tags: []
+user_id: ZAID

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZAID/Desktop/MLops/HotelReservationPrediction/mlruns/0/bb95d6aa4ab3460eb2edb6147dc7e019/artifacts
+end_time: 1747981380472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bb95d6aa4ab3460eb2edb6147dc7e019
+run_name: hilarious-yak-449
+run_uuid: bb95d6aa4ab3460eb2edb6147dc7e019
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747981373685
+status: 4
+tags: []
+user_id: ZAID

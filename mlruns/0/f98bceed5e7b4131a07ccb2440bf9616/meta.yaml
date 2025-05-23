@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/ZAID/Desktop/MLops/HotelReservationPrediction/mlruns/0/f98bceed5e7b4131a07ccb2440bf9616/artifacts
+end_time: 1747981901916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f98bceed5e7b4131a07ccb2440bf9616
+run_name: bold-sheep-634
+run_uuid: f98bceed5e7b4131a07ccb2440bf9616
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1747981889635
+status: 4
+tags: []
+user_id: ZAID
