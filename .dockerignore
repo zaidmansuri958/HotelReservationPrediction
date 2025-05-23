@@ -1,0 +1,14 @@
+data/
+notebooks/
+*.ipynb
+*.csv
+*.md
+__pycache__/
+*.log
+pipeline/
+artifacts/processed/
+artifacts/raw
+mlruns/
+src/
+venv/
+
